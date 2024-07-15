@@ -1,0 +1,19 @@
+﻿body {
+}
+
+.card-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 50px;
+}
+
+.card {
+    width: 100%;
+   
+
+}
+.card-img-top {
+  
+    height: 270px;
+}

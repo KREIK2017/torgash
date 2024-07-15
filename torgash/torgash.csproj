@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\img\cards\card1.png" />
+    <None Include="wwwroot\img\cards\card2.png" />
+    <None Include="wwwroot\img\cards\card3.png" />
+    <None Include="wwwroot\img\cards\card4.png" />
+    <None Include="wwwroot\img\cards\card5.png" />
+    <None Include="wwwroot\img\cards\card6.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0-preview.6.23329.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0-preview.6.23329.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0-preview.6.23329.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Pages\category\hats\" />
+    <Folder Include="Pages\category\tshirt\" />
+    <Folder Include="Pages\category\sport\" />
+    <Folder Include="Pages\category\sneakers\" />
+    <Folder Include="Pages\category\socks\" />
+    <Folder Include="Pages\category\accessories\" />
+  </ItemGroup>
+
+</Project>

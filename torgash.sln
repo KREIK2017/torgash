@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "torgash", "torgash\torgash.csproj", "{5D3FDF9E-F96E-487B-B8CD-E3C18ACD31DD}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite1", "http://localhost:8080", "{5AF4D8F4-E03E-41DE-B30A-0B3596CAEA4C}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_8080"
+		Debug.AspNetCompiler.PhysicalPath = "D:\Documents\My Web Sites\WebSite1\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_8080\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_8080"
+		Release.AspNetCompiler.PhysicalPath = "D:\Documents\My Web Sites\WebSite1\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_8080\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "D:\Documents\My Web Sites\WebSite1\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D3FDF9E-F96E-487B-B8CD-E3C18ACD31DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D3FDF9E-F96E-487B-B8CD-E3C18ACD31DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D3FDF9E-F96E-487B-B8CD-E3C18ACD31DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D3FDF9E-F96E-487B-B8CD-E3C18ACD31DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AF4D8F4-E03E-41DE-B30A-0B3596CAEA4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AF4D8F4-E03E-41DE-B30A-0B3596CAEA4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AF4D8F4-E03E-41DE-B30A-0B3596CAEA4C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AF4D8F4-E03E-41DE-B30A-0B3596CAEA4C}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {465AB860-B5C0-4536-969E-7384EE959051}
+	EndGlobalSection
+EndGlobal

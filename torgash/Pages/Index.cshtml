@@ -1,0 +1,25 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<link rel="stylesheet" href="~/css/index.css" asp-append-version="true" />
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to torgash.ua</h1>
+    <p>In this store u can find many cool clothing and accessories!</p>
+
+    <div class="card-list">
+        @foreach (var card in Model.Cards)
+        {
+            <a asp-area="" asp-page="@card.Link" class="card-link" style="text-decoration: none; color: inherit;">
+                <div class="card" style="width: 18rem;">
+                    <img src="@card.Img" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">@card.Title</h5>
+                    </div>
+                </div>
+            </a>
+        }
+    </div>
+</div>
