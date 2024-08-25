@@ -24,7 +24,7 @@ on:
 
 env:
   AZURE_FUNCTIONAPP_NAME: 'torgash'
-  AZURE_FUNCTIONAPP_PACKAGE_PATH: 'torgash/torgash/Views/Home'
+  AZURE_FUNCTIONAPP_PACKAGE_PATH: 'torgash/torgash'
   DOTNET_VERSION: '8.0.x'
 
 jobs:
